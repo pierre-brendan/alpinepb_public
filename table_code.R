@@ -52,7 +52,7 @@ g <- datatable(
 
 htmlwidgets::saveWidget(g, "full_config_result.html")
 
-## Top 20 configurations
+## Top 25 configurations
 df2 <- df
 df2$dom <- gsub("https://", "", df2$publisherDomain)
 cpm_gained$publisherDomain <- as.character(cpm_gained$publisherDomain)
